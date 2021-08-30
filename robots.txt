@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /
+
+User-Agent: Yandex
+Disallow: /
+Clean-param: editionuid&from&utm_referer&r&ref&rs&yhid&keyword&sub1
+
+Sitemap: https://zernyatko.kh.ua/sitemap.xml
+Sitemap: https://zernyatko.kh.ua/sitemap-store.xml
+Host: https://zernyatko.kh.ua

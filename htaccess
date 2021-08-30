@@ -1,0 +1,167 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page16991281.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www.zernyatko\.kh\.ua [NC]
+RewriteRule ^(.*)$ https://zernyatko\.kh\.ua/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteCond %{HTTP_HOST} ^www.zernyatko\.kh\.ua [NC]
+RewriteRule ^(.*)$ http://zernyatko\.kh\.ua/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^eng$ page5047877.html [NC]
+RewriteRule ^eng/$ page5047877.html [NC]
+
+RewriteRule ^vyrij-brand$ page8428254.html [NC]
+RewriteRule ^vyrij-brand/$ page8428254.html [NC]
+
+RewriteRule ^ioon-52284$ page11153211.html [NC]
+RewriteRule ^ioon-52284/$ page11153211.html [NC]
+
+RewriteRule ^huawei$ page17787458.html [NC]
+RewriteRule ^huawei/$ page17787458.html [NC]
+
+RewriteRule ^lending-pages$ page17407079.html [NC]
+RewriteRule ^lending-pages/$ page17407079.html [NC]
+
+RewriteRule ^about-us$ page16991386.html [NC]
+RewriteRule ^about-us/$ page16991386.html [NC]
+
+RewriteRule ^smm$ page17407127.html [NC]
+RewriteRule ^smm/$ page17407127.html [NC]
+
+RewriteRule ^art-of-security$ page17787560.html [NC]
+RewriteRule ^art-of-security/$ page17787560.html [NC]
+
+RewriteRule ^cases$ page16991408.html [NC]
+RewriteRule ^cases/$ page16991408.html [NC]
+
+RewriteRule ^imhoruna$ page17787650.html [NC]
+RewriteRule ^imhoruna/$ page17787650.html [NC]
+
+RewriteRule ^nasnaga$ page589110.html [NC]
+RewriteRule ^nasnaga/$ page589110.html [NC]
+
+RewriteRule ^ar-production$ page17407159.html [NC]
+RewriteRule ^ar-production/$ page17407159.html [NC]
+
+RewriteRule ^services$ page16991444.html [NC]
+RewriteRule ^services/$ page16991444.html [NC]
+
+RewriteRule ^perfect-store$ page17787709.html [NC]
+RewriteRule ^perfect-store/$ page17787709.html [NC]
+
+RewriteRule ^vrmarathon$ page4963685.html [NC]
+RewriteRule ^vrmarathon/$ page4963685.html [NC]
+
+RewriteRule ^promo$ page17407197.html [NC]
+RewriteRule ^promo/$ page17407197.html [NC]
+
+RewriteRule ^letskidsmoveon$ page17787791.html [NC]
+RewriteRule ^letskidsmoveon/$ page17787791.html [NC]
+
+RewriteRule ^artofsecurity$ page6388421.html [NC]
+RewriteRule ^artofsecurity/$ page6388421.html [NC]
+
+RewriteRule ^special$ page17407228.html [NC]
+RewriteRule ^special/$ page17407228.html [NC]
+
+RewriteRule ^kyivpost$ page17789718.html [NC]
+RewriteRule ^kyivpost/$ page17789718.html [NC]
+
+RewriteRule ^en-76889$ page6545212.html [NC]
+RewriteRule ^en-76889/$ page6545212.html [NC]
+
+RewriteRule ^nasnagaru$ page740776.html [NC]
+RewriteRule ^nasnagaru/$ page740776.html [NC]
+
+RewriteRule ^nasnagaen$ page740774.html [NC]
+RewriteRule ^nasnagaen/$ page740774.html [NC]
+
+RewriteRule ^cnk$ page18069714.html [NC]
+RewriteRule ^cnk/$ page18069714.html [NC]
+
+RewriteRule ^vrmarathon/en$ page5090313.html [NC]
+RewriteRule ^vrmarathon/en/$ page5090313.html [NC]
+
+RewriteRule ^music$ page18069797.html [NC]
+RewriteRule ^music/$ page18069797.html [NC]
+
+RewriteRule ^about-company/audioguides$ page8611444.html [NC]
+RewriteRule ^about-company/audioguides/$ page8611444.html [NC]
+
+RewriteRule ^ioon$ page18593091.html [NC]
+RewriteRule ^ioon/$ page18593091.html [NC]
+
+RewriteRule ^benkendorf-food$ page20492882.html [NC]
+RewriteRule ^benkendorf-food/$ page20492882.html [NC]
+
+RewriteRule ^home-en$ page20492386.html [NC]
+RewriteRule ^home-en/$ page20492386.html [NC]
+
+RewriteRule ^kp-online-events$ page20494170.html [NC]
+RewriteRule ^kp-online-events/$ page20494170.html [NC]
+
+RewriteRule ^about-us-en$ page20492428.html [NC]
+RewriteRule ^about-us-en/$ page20492428.html [NC]
+
+RewriteRule ^cases-en$ page20492442.html [NC]
+RewriteRule ^cases-en/$ page20492442.html [NC]
+
+RewriteRule ^kp-doing-business-2021$ page20496234.html [NC]
+RewriteRule ^kp-doing-business-2021/$ page20496234.html [NC]
+
+RewriteRule ^new-names$ page20496675.html [NC]
+RewriteRule ^new-names/$ page20496675.html [NC]
+
+RewriteRule ^huawei-en$ page20643165.html [NC]
+RewriteRule ^huawei-en/$ page20643165.html [NC]
+
+RewriteRule ^nato-en$ page20643189.html [NC]
+RewriteRule ^nato-en/$ page20643189.html [NC]
+
+RewriteRule ^imhoruna-en$ page20643205.html [NC]
+RewriteRule ^imhoruna-en/$ page20643205.html [NC]
+
+RewriteRule ^perfect-store-en$ page20643219.html [NC]
+RewriteRule ^perfect-store-en/$ page20643219.html [NC]
+
+RewriteRule ^letskidsmoveon-en$ page20643236.html [NC]
+RewriteRule ^letskidsmoveon-en/$ page20643236.html [NC]
+
+RewriteRule ^kyivpost-en$ page20643256.html [NC]
+RewriteRule ^kyivpost-en/$ page20643256.html [NC]
+
+RewriteRule ^cnk-en$ page20643275.html [NC]
+RewriteRule ^cnk-en/$ page20643275.html [NC]
+
+RewriteRule ^music-en$ page20643294.html [NC]
+RewriteRule ^music-en/$ page20643294.html [NC]
+
+RewriteRule ^ioon-en$ page20643310.html [NC]
+RewriteRule ^ioon-en/$ page20643310.html [NC]
+
+RewriteRule ^benkendorf-food-en$ page20643322.html [NC]
+RewriteRule ^benkendorf-food-en/$ page20643322.html [NC]
+
+RewriteRule ^kp-online-events-en$ page20643341.html [NC]
+RewriteRule ^kp-online-events-en/$ page20643341.html [NC]
+
+RewriteRule ^kp-doing-business-2021-en$ page20643353.html [NC]
+RewriteRule ^kp-doing-business-2021-en/$ page20643353.html [NC]
+
+RewriteRule ^new-names-en$ page20643364.html [NC]
+RewriteRule ^new-names-en/$ page20643364.html [NC]
+
+RewriteRule ^zerniatko$ page21230713.html [NC]
+RewriteRule ^zerniatko/$ page21230713.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild6339-6239-4435-a665-393738613062/Group_9.ico [R=302,L]
+
