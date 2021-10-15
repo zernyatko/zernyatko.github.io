@@ -6,12 +6,12 @@ DirectoryIndex page16991281.html
 RewriteEngine On
 
 RewriteCond %{HTTP:X-Forwarded-Proto} =https
-RewriteCond %{HTTP_HOST} ^www.zernyatko\.kh\.ua [NC]
-RewriteRule ^(.*)$ https://zernyatko\.kh\.ua/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.studio\.gwaramedia\.com [NC]
+RewriteRule ^(.*)$ https://studio\.gwaramedia\.com/$1 [R=301,L]
 
 RewriteCond %{HTTP:X-Forwarded-Proto} =http
-RewriteCond %{HTTP_HOST} ^www.zernyatko\.kh\.ua [NC]
-RewriteRule ^(.*)$ http://zernyatko\.kh\.ua/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www.studio\.gwaramedia\.com [NC]
+RewriteRule ^(.*)$ http://studio\.gwaramedia\.com/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} /robots.txt
 RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
